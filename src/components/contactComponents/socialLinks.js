@@ -1,7 +1,7 @@
 // src/components/contactComponents/socialLinks.js
 
 import React from "react";
-import { BsInstagram, BsFacebook } from "react-icons/bs";
+import { BsInstagram, BsFacebook, BsEnvelope } from "react-icons/bs";
 import { SiSubstack } from "react-icons/si";
 import contactPlaceholder2 from "../../static/contact-placeholders/contact-placeholder-2.png";
 import '../../styles/Contact.scss';
@@ -9,20 +9,33 @@ import '../../styles/Contact.scss';
 class SocialLinks extends React.Component {
   render() {
     const facebook = "https://www.facebook.com/trenducsd/";
-    const instagram = "https://www.instagram.com/trenducsd/";
+    const instagram = "https://www.instagram.com/trendatucsd/";
     const substack = "https://trendmagazine.substack.com/";
+    const email = "mailto:trend@ucsd.edu";
 
     return (
       <div className="social-links-container">
         <div className="social-info">
-          <h2>Stay up to date with us</h2>
+          <h2>Our Platforms</h2>
+          <p className="contact-caption">
+            Reach out if you would like to learn more about us or if you would like to partner with us.
+          </p>
           <div className="social-list">
+            <a href={email} className="social-item">
+              <div className="social-icon email-icon">
+                <BsEnvelope />
+              </div>
+              <div className="social-text">
+                <span className="social-platform">Email</span>
+                <span className="social-handle">trend@ucsd.edu</span>
+              </div>
+            </a>
             <a href={instagram} target="_blank" rel="noopener noreferrer" className="social-item">
               <div className="social-icon instagram-icon">
                 <BsInstagram />
               </div>
               <div className="social-text">
-                <span className="social-platform">instagram</span>
+                <span className="social-platform">Instagram</span>
                 <span className="social-handle">@trendatucsd</span>
               </div>
             </a>
@@ -31,7 +44,7 @@ class SocialLinks extends React.Component {
                 <BsFacebook />
               </div>
               <div className="social-text">
-                <span className="social-platform">facebook</span>
+                <span className="social-platform">Facebook</span>
                 <span className="social-handle">/trenducsd</span>
               </div>
             </a>
@@ -40,7 +53,7 @@ class SocialLinks extends React.Component {
                 <SiSubstack />
               </div>
               <div className="social-text">
-                <span className="social-platform">substack</span>
+                <span className="social-platform">Substack</span>
                 <span className="social-handle">trendmagazine.substack.com</span>
               </div>
             </a>

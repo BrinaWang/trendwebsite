@@ -16,7 +16,7 @@ const images = [img1, img2, img3, img4, img5, img6, img7, img8];
 class YouTrend extends React.Component {
   render() {
     const facebook = "https://www.facebook.com/trenducsd/";
-    const instagram = "https://www.instagram.com/trenducsd/";
+    const instagram = "https://www.instagram.com/trendatucsd/";
     const substack = "https://trendmagazine.substack.com/";
 
     return (

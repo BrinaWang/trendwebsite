@@ -203,13 +203,13 @@
   }
   
   .center-content {
-    padding: 25px;
+    padding: 30px;
     min-height: 400px;
     min-width: 500px;
-    background-size: 70%;
+    background-size: 75%;
     background-position: center top;
     justify-content: center;
-    padding-top: 13px;
+    padding-top: 15px;
   }
   
   .left-image-collage {
@@ -242,7 +242,16 @@
   
   
   .category-subtitle {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
+  }
+  
+  .description-box {
+    padding: 25px;
+    max-width: 450px;
+    
+    .description-text {
+      font-size: 1.5rem;
+    }
   }
 }
 
@@ -283,14 +292,15 @@
   
   
   .category-subtitle {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   
   .description-box {
     padding: 20px;
+    max-width: 250px;
     
     .description-text {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
     }
   }
 }

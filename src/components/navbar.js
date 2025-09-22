@@ -59,7 +59,7 @@ class Navbar extends React.Component {
   render() {
 
     const facebook = "https://www.facebook.com/trenducsd/";
-    const instagram = "https://www.instagram.com/trenducsd/";
+    const instagram = "https://www.instagram.com/trendatucsd/";
     const substack = "https://trendmagazine.substack.com/";
     const { windowWidth } = this.state; 
     
