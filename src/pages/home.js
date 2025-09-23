@@ -35,7 +35,7 @@ class Home extends React.Component {
         <FeaturedIssue />
         <Blogs />
         <WhoWeAre />
-        <Upcoming />
+        {/* <Upcoming /> */}
         <YouTrend />
       </div>
     );
